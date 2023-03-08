@@ -1,0 +1,16 @@
+2023-03-07 23:54:27,101 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2023-03-07 23:54:33,131 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:50708
+
+2023-03-07 23:54:33,131 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.37.133:39918
+
+2023-03-08 00:11:54,735 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2023-03-08 00:11:54,735 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 
+2023-03-08 02:30:21,723 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8200
+2023-03-08 02:30:21,786 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=7 from 127.0.0.1:40604
+
+2023-03-08 02:30:21,787 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=7 
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.37.133:51656
+
+2023-03-08 02:30:21,837 [INFO  IM] - <RouteConn.cpp>|<266>|<_HandleRoleSet>,HandleRoleSet, master=1, handle=8 
+2023-03-08 02:30:21,837 [INFO  IM] - <RouteConn.cpp>|<169>|<_HandleOnlineUserInfo>,HandleOnlineUserInfo, user_cnt=0 

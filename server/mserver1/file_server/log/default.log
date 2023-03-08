@@ -1,0 +1,14 @@
+2023-03-07 23:54:10,315 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8600
+2023-03-07 23:54:10,315 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 127.0.0.1:8601
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.37.133:48290
+
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2023-03-08 00:11:54,734 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843
+2023-03-08 02:30:21,719 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 0.0.0.0:8600
+2023-03-08 02:30:21,725 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 127.0.0.1:8601
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=8 from 192.168.37.133:52878
+
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<228>|<SetSendBufSize>,socket=8 send_buf_size=262144
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<241>|<SetRecvBufSize>,socket=8 recv_buf_size=262144
+2023-03-08 02:30:21,836 [INFO  IM] - <file_client_conn.cpp>|<214>|<HandlePdu>,no such cmd id: 1843

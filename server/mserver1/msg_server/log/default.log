@@ -1,0 +1,349 @@
+2023-03-07 23:54:49,071 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-07 23:54:49,071 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-07 23:56:11,090 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-07 23:56:11,090 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-08 00:03:15,758 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 00:03:15,758 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-08 00:06:45,097 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 00:06:45,097 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-08 00:09:26,382 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 00:09:26,382 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-08 00:09:34,958 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 00:09:34,958 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-08 00:10:49,978 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 00:10:49,979 [INFO  IM] - <msg_server.cpp>|<87>|<main>,DBServerIP need 2 instance at lest 
+2023-03-08 00:11:54,733 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.37.133:8000
+2023-03-08 00:11:54,734 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.37.133:8600 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8600
+2023-03-08 00:11:54,734 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 1), for other business: [1, 2) 
+2023-03-08 00:11:54,734 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 192.168.37.133:10600 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=10600
+2023-03-08 00:11:54,734 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 192.168.37.133:10600 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=10600
+2023-03-08 00:11:54,734 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.37.133:8100 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8100
+2023-03-08 00:11:54,734 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 192.168.37.133:8200 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8200
+2023-03-08 00:11:54,734 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:11:54,734 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:11:54,734 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-08 00:11:54,734 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-08 00:11:54,734 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-08 00:11:54,734 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2023-03-08 00:11:54,734 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2023-03-08 00:11:54,734 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:11:58,797 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:11:58,798 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:11:58,798 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:12:06,798 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:12:06,798 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:12:06,798 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:12:22,782 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:12:22,782 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:12:22,783 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:12:54,825 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:12:54,826 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:12:54,826 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:13:58,802 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:13:58,802 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:13:58,802 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:14:02,771 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:14:02,771 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:14:02,771 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:14:10,801 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:14:10,801 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:14:10,801 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:14:26,773 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:14:26,773 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:14:26,773 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:14:58,743 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:14:58,743 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:14:58,743 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:16:02,783 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:16:02,783 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:16:02,783 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:16:06,755 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:16:06,755 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:16:06,755 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:16:14,776 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:16:14,777 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:16:14,777 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:16:30,775 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:16:30,775 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:16:30,776 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:16:54,831 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 00:17:02,773 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:17:02,773 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:17:02,773 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:18:06,762 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:18:06,762 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:18:06,762 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:18:10,821 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 00:18:10,821 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 00:18:10,821 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 00:18:11,930 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=10 
+2023-03-08 02:30:21,834 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2023-03-08 02:30:21,835 [INFO  IM] - <BaseSocket.cpp>|<81>|<Listen>,CBaseSocket::Listen on 192.168.37.133:8000
+2023-03-08 02:30:21,835 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.37.133:8600 
+2023-03-08 02:30:21,835 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8600
+2023-03-08 02:30:21,836 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 1), for other business: [1, 2) 
+2023-03-08 02:30:21,836 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 192.168.37.133:10600 
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=10600
+2023-03-08 02:30:21,836 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 192.168.37.133:10600 
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=10600
+2023-03-08 02:30:21,836 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.37.133:8100 
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8100
+2023-03-08 02:30:21,836 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 192.168.37.133:8200 
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8200
+2023-03-08 02:30:21,836 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:30:21,836 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:30:21,836 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2023-03-08 02:30:21,836 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-08 02:30:21,836 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2023-03-08 02:30:21,836 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2023-03-08 02:30:21,837 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2023-03-08 02:30:21,837 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:30:25,890 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:30:25,890 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:30:25,890 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:30:33,881 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:30:33,881 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:30:33,881 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:30:49,855 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:30:49,855 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:30:49,855 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:31:21,869 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:31:21,869 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:31:21,869 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:32:25,902 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:32:25,902 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:32:25,902 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:32:29,881 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:32:29,881 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:32:29,881 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:32:37,879 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:32:37,879 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:32:37,879 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:32:53,877 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:32:53,877 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:32:53,877 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:33:25,872 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:33:25,872 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:33:25,872 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:34:29,905 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:34:29,905 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:34:29,905 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:34:33,872 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:34:33,872 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:34:33,872 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:34:41,922 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:34:41,922 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:34:41,922 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:34:57,857 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:34:57,858 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:34:57,858 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:35:21,877 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 02:35:29,922 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:35:29,923 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:35:29,923 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:36:33,910 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:36:33,910 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:36:33,910 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:36:37,889 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:36:37,889 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:36:37,889 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:36:45,933 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:36:45,933 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:36:45,934 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:37:01,919 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:37:01,920 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:37:01,920 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:37:33,863 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:37:33,863 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:37:33,863 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:38:37,860 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:38:37,860 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:38:37,860 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:38:41,915 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:38:41,915 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:38:41,915 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:38:49,939 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:38:49,939 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:38:49,939 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:39:05,919 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:39:05,919 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:39:05,919 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:39:37,851 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:39:37,851 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:39:37,852 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:40:22,904 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 02:40:41,924 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:40:41,924 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:40:41,924 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:40:45,904 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:40:45,905 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:40:45,905 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:40:53,927 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:40:53,927 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:40:53,927 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:41:09,910 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:41:09,911 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:41:09,911 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:41:41,882 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:41:41,882 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:41:41,882 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:42:45,879 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:42:45,879 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:42:45,879 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:42:49,877 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:42:49,877 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:42:49,877 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:42:57,900 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:42:57,900 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:42:57,900 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:43:13,901 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:43:13,901 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:43:13,901 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:43:45,874 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:43:45,874 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:43:45,874 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:44:49,907 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:44:49,907 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:44:49,907 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:44:53,928 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:44:53,928 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:44:53,928 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:45:01,917 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:45:01,917 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:45:01,917 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:45:17,889 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:45:17,889 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:45:17,889 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:45:22,923 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 02:45:49,917 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:45:49,917 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:45:49,917 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:46:53,883 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:46:53,883 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:46:53,883 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:46:57,911 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:46:57,911 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:46:57,911 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:47:05,876 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:47:05,876 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:47:05,876 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:47:21,872 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:47:21,872 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:47:21,872 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:47:53,891 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:47:53,891 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:47:53,891 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:48:57,897 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:48:57,897 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:48:57,898 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:49:01,935 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:49:01,935 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:49:01,935 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:49:09,872 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:49:09,873 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:49:09,873 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:49:25,861 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:49:25,861 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:49:25,861 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:49:57,917 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:49:57,917 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:49:57,917 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:50:23,875 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 02:51:01,848 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:51:01,848 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:51:01,848 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:51:05,921 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:51:05,921 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:51:05,921 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:51:13,865 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:51:13,865 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:51:13,866 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:51:29,859 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:51:29,859 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:51:29,859 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:52:01,925 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:52:01,925 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:52:01,925 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:53:05,868 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:53:05,868 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:53:05,868 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:53:09,838 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:53:09,838 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:53:09,839 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:53:17,907 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:53:17,907 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:53:17,907 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:53:33,893 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:53:33,893 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:53:33,893 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:54:05,876 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:54:05,876 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:54:05,876 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:55:09,872 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:55:09,872 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:55:09,872 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:55:13,847 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:55:13,847 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:55:13,847 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:55:21,874 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:55:21,874 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:55:21,874 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:55:23,934 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 02:55:37,882 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:55:37,882 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:55:37,882 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:56:09,845 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:56:09,845 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:56:09,845 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:57:13,901 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:57:13,901 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:57:13,901 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:57:17,879 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:57:17,879 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:57:17,879 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:57:25,902 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:57:25,902 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:57:25,902 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:57:41,873 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:57:41,873 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:57:41,873 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:58:13,872 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:58:13,872 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:58:13,872 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:59:17,839 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:59:17,839 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:59:17,839 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:59:21,924 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:59:21,924 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:59:21,924 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:59:29,871 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:59:29,871 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:59:29,871 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 02:59:45,910 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 02:59:45,910 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 02:59:45,910 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 03:00:17,894 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 03:00:17,894 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 03:00:17,894 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 03:00:24,906 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2023-03-08 03:01:21,898 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 03:01:21,898 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 03:01:21,898 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 03:01:25,871 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 03:01:25,871 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 03:01:25,872 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 03:01:33,889 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 03:01:33,889 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 03:01:33,889 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 03:01:49,876 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 03:01:49,876 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 03:01:49,876 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+2023-03-08 03:02:21,918 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
+2023-03-08 03:02:21,918 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
+2023-03-08 03:02:21,918 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 

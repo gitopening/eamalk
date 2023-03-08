@@ -1,0 +1,4 @@
+2023-03-07 23:54:54,136 [ERROR SOCKET] - <ssl_client_async.cpp>|<41>|<InitSSL>,init ssl: use certificate file failed.
+2023-03-07 23:54:54,136 [ERROR PUSH] - <apns_client.cpp>|<163>|<ConnectGateway>,gateway client init ssl failed.
+2023-03-08 02:30:24,362 [ERROR SOCKET] - <ssl_client_async.cpp>|<41>|<InitSSL>,init ssl: use certificate file failed.
+2023-03-08 02:30:24,362 [ERROR PUSH] - <apns_client.cpp>|<163>|<ConnectGateway>,gateway client init ssl failed.
