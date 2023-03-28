@@ -376,3 +376,8 @@
 2023-03-28 23:11:44,900 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=0. 
 2023-03-28 23:11:44,912 [INFO  IM] - <DBServConn.cpp>|<589>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
 上面这部分是msgserver日志
+
+2023-03-28 23:30:40,860 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=13 from 192.168.0.27:57222
+
+2023-03-28 23:30:40,867 [INFO  IM] - <MsgConn.cpp>|<383>|<HandlePdu>,wrong msg, cmd id=254, user id=0. 
+这是失败的日志
