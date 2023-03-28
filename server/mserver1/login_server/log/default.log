@@ -79,3 +79,8 @@
 2023-03-28 23:11:44,833 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,btflam:18000, cur_cnt=1, total_cnt=1 
 正常登陆的logserver 日志
 
+2023-03-28 23:28:18,565 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.0.27:55808
+
+2023-03-28 23:28:18,567 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+这是失败的日志
+
