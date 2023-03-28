@@ -347,3 +347,12 @@
 2023-03-08 03:02:21,918 [INFO  IM] - <PushServConn.cpp>|<128>|<Connect>,Connecting to Push Server 192.168.37.133:8500 
 2023-03-08 03:02:21,918 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=192.168.37.133, port=8500
 2023-03-08 03:02:21,918 [INFO  IM] - <PushServConn.cpp>|<163>|<OnClose>,onclose from push server handle=12 
+
+
+一次正常登陆的日志
+2023-03-28 23:11:38,686 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,btflam:18000, cur_cnt=0, total_cnt=0 
+2023-03-28 23:11:44,770 [INFO  IM] - <BaseSocket.cpp>|<329>|<_AcceptNewSocket>,AcceptNewSocket, socket=10 from 192.168.0.38:37105
+
+2023-03-28 23:11:44,775 [INFO  IM] - <HttpConn.cpp>|<314>|<OnWriteComlete>,write complete 
+2023-03-28 23:11:44,833 [INFO  IM] - <LoginConn.cpp>|<182>|<_HandleUserCntUpdate>,btflam:18000, cur_cnt=1, total_cnt=1 
+一次正常登陆的日志 完成
