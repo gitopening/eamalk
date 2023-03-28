@@ -381,3 +381,41 @@
 
 2023-03-28 23:30:40,867 [INFO  IM] - <MsgConn.cpp>|<383>|<HandlePdu>,wrong msg, cmd id=254, user id=0. 
 这是失败的日志
+
+2023-03-28 23:50:57.648 27716-27716/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:50:57:646 - [IMLoginManager.java:182:login] - 2 - login#login-> userName:test
+2023-03-28 23:50:57.654 27716-27716/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:652 - [IMSocketManager.java:174:reqMsgServerAddrs] - 2 - socket#reqMsgServerAddrs.
+2023-03-28 23:50:57.754 27716-28111/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:753 - [IMSocketManager.java:321:onRepLoginServerAddrs] - 1235 - login#onRepLoginServerAddrs
+2023-03-28 23:50:57.759 27716-28111/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:758 - [IMSocketManager.java:328:onRepLoginServerAddrs] - 1235 - login#onRepLoginServerAddrs json:{"backupIP":"192.168.0.37","code":0,"discovery":"http:\/\/192.168.0.37\/api\/discovery","msfsBackup":"http:\/\/192.168.0.37:18700\/","msfsPrior":"http:\/\/192.168.0.37:18700\/","msg":"","port":"18000","priorIP":"192.168.0.37"}
+2023-03-28 23:50:57.780 27716-28111/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:779 - [IMSocketManager.java:368:onRepLoginServerAddrs] - 1235 - login#got loginserverAddrsEntity:LoginServerAddrsEntity{code=0, msg='null', priorIP='192.168.0.37', backupIP='192.168.0.37', port=18000}
+2023-03-28 23:50:57.783 27716-27716/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:782 - [IMSocketManager.java:179:onSuccess] - 2 - socket#req msgAddress onSuccess,返回的服务器信息 response:{
+       "backupIP" : "192.168.0.37",
+       "code" : 0,
+       "discovery" : "http://192.168.0.37/api/discovery",
+       "msfsBackup" : "http://192.168.0.37:18700/",
+       "msfsPrior" : "http://192.168.0.37:18700/",
+       "msg" : "",
+       "port" : "18000",
+       "priorIP" : "192.168.0.37"
+    }
+2023-03-28 23:50:57.788 27716-27716/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:50:57:787 - [IMSocketManager.java:224:connectMsgServer] - 2 - login#connectMsgServer -> (192.168.0.37:18000)
+2023-03-28 23:50:57.790 27716-27716/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:50:57:789 - [IMSocketManager.java:225:connectMsgServer] - 2 - login#connectMsgServer -> (LoginServerAddrsEntity{code=0, msg='null', priorIP='192.168.0.37', backupIP='192.168.0.37', port=18000})
+2023-03-28 23:50:57.898 27716-28112/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:897 - [MsgServerHandler.java:22:channelConnected] - 1237 - channel#channelConnected
+2023-03-28 23:50:57.899 27716-28112/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:50:57:898 - [IMSocketManager.java:270:onMsgServerConnected] - 1237 - login#onMsgServerConnected
+2023-03-28 23:50:57.900 27716-28112/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:899 - [ListenerQueue.java:34:onStart] - 1237 - ListenerQueue#onStart run
+2023-03-28 23:50:57.901 27716-28112/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:50:57:900 - [IMLoginManager.java:222:reqLoginMsgServer] - 1237 - login#reqLoginMsgServer
+2023-03-28 23:50:57.911 27716-28112/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:910 - [DefaultHeader.java:19:<init>] - 1237 - packet#construct Default Header -> serviceId:9, commandId:254, seqNo:1
+2023-03-28 23:50:57.920 27716-28112/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:50:57:919 - [SocketThread.java:157:sendRequest] - 1237 - packet#send ok
+    
+    --------- beginning of system
+2023-03-28 23:51:07.911 27716-27716/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:51:07:908 - [ListenerQueue.java:74:timerImpl] - 2 - ListenerQueue#find timeout msg
+2023-03-28 23:51:07.924 27716-27716/com.weblab.adt.weblab.tt E/MoGuLogger: 2023-03-28 23:51:07:921 - [LoginActivity.java:493:onLoginFailure] - 2 - login#onLoginError -> errorCode:LOGIN_INNER_FAILED
+2023-03-28 23:51:07.937 27716-27716/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:51:07:936 - [LoginActivity.java:496:onLoginFailure] - 2 - login#errorTip:登陆失败, 请检查你的网络或稍后重试
+2023-03-28 23:51:13.111 27716-28112/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:51:13:110 - [MsgServerHandler.java:36:channelDisconnected] - 1237 - channel#channelDisconnected
+2023-03-28 23:51:13.118 27716-28112/com.weblab.adt.weblab.tt W/MoGuLogger: 2023-03-28 23:51:13:113 - [IMSocketManager.java:287:onMsgServerDisconn] - 1237 - login#onMsgServerDisconn
+2023-03-28 23:51:13.122 27716-28112/com.weblab.adt.weblab.tt D/MoGuLogger: 2023-03-28 23:51:13:120 - [ListenerQueue.java:39:onDestory] - 1237 - ListenerQueue#onDestory 
+2023-03-28 23:51:13.126 27716-28112/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:51:13:125 - [IMSocketManager.java:253:disconnectMsgServer] - 1237 - login#disconnectMsgServer
+2023-03-28 23:51:13.130 27716-28112/com.weblab.adt.weblab.tt I/MoGuLogger: 2023-03-28 23:51:13:129 - [IMSocketManager.java:257:disconnectMsgServer] - 1237 - login#do real disconnectMsgServer ok
+2023-03-28 23:51:13.135 27716-28112/com.weblab.adt.weblab.tt W/MoGuLogger: 2023-03-28 23:51:13:132 - [IMHeartBeatManager.java:70:onMsgServerDisconn] - 1237 - heartbeat#onChannelDisconn
+2023-03-28 23:51:13.139 27716-28112/com.weblab.adt.weblab.tt W/MoGuLogger: 2023-03-28 23:51:13:138 - [IMHeartBeatManager.java:75:cancelHeartbeatTimer] - 1237 - heartbeat#cancelHeartbeatTimer
+2023-03-28 23:51:13.143 27716-28112/com.weblab.adt.weblab.tt W/MoGuLogger: 2023-03-28 23:51:13:141 - [IMHeartBeatManager.java:77:cancelHeartbeatTimer] - 1237 - heartbeat#pi is null
+这是安卓第一次安卓 登陆失败打印的日志
